@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+Pipfile.lock
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# PyTorch and YOLO files
+runs/
+*.pt
+*.onnx
+*.engine
+*.tflite
+
+# Dataset files
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# Logs and outputs
+*.log
+*.csv
+*.npy
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Git and debugging
+.git/
+*.swp
+tiled_train_and_val/
+weights
